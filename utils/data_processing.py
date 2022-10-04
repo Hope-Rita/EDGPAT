@@ -37,7 +37,7 @@ def get_data(dataset_name, reflect_set, use_validation=False):
         print(torch.tensor(list(ref_data[:,0])))
         ref_list.append(torch.cat([torch.tensor(list(ref_data[:,0])).unsqueeze(dim=-1), torch.tensor(list(ref_data[:,1])).unsqueeze(dim=-1)],dim=1))
 
-    train_time, val_time, test_time = [20171232, 20171232, 20171232]
+    train_time, val_time, test_time = [20151232, 20161232, 20171232]
 
     # company,fields,timestamp,label,ts #
     sources = graph_df.company.values
