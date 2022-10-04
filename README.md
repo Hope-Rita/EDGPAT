@@ -1,6 +1,6 @@
 # Event-based Dynamic Graph Representation Learning for Patent Application Trend Prediction
 ## Datasets
-We provide the preprocessed datasets at [here](https://drive.google.com/drive/folders/10SPt1y2bGpywosbMce9oRHGBsJGMlUpY), which should be put in the ./data folder.
+We provide the preprocessed datasets at [here](https://drive.google.com/drive/folders/10SPt1y2bGpywosbMce9oRHGBsJGMlUpY?usp=sharing), which should be put in the ./data folder.
 
 ## To run the patent application trend prediction task on patent datasets:
 run ./main.py to get the results of EDGPAT.
